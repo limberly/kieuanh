@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<!-- saved from url=(0049)https://getbootstrap.com/docs/5.0/examples/album/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.80.0">
+    <title>Kieu Anh</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/album/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="./Album example · Bootstrap v5.0_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <!-- Favicons -->
+<link rel="apple-touch-icon" href="https://getbootstrap.com/docs/5.0/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<!-- icon from https://www.iconfinder.com/icons/4875798/k_icon -->
+<link rel="icon" href="images/k.png" sizes="32x32" type="image/png">
+<link rel="icon" href="images/k.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="https://getbootstrap.com/docs/5.0/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="https://getbootstrap.com/docs/5.0/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
+<link rel="icon" href="images/k.png">
+<meta name="theme-color" content="#7952b3">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+  </head>
+  <body>
+    
+<header>
+  <div class="bg-dark collapse" id="navbarHeader" style="">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-md-7 py-4">
+          <h4 class="text-white">About</h4>
+          <p class="text-muted">Hi! I am Kieu Anh, a data visualization anthusiast. Currently, I work at <a href="https://www.wave.tv/">wave.tv</a> as a business analyst.</p>
+        </div>
+        <div class="col-sm-4 offset-md-1 py-4">
+          <h4 class="text-white">Contact</h4>
+          <ul class="list-unstyled">
+            <li><p class="text-white">n.n.kieuanh@gmail.com</p></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="navbar navbar-dark bg-dark shadow-sm">
+    <div class="container">
+      <a href="index.html" class="navbar-brand d-flex align-items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-code" viewBox="0 0 16 16">
+            <path d="M6.646 5.646a.5.5 0 1 1 .708.708L5.707 8l1.647 1.646a.5.5 0 0 1-.708.708l-2-2a.5.5 0 0 1 0-.708l2-2zm2.708 0a.5.5 0 1 0-.708.708L10.293 8 8.646 9.646a.5.5 0 0 0 .708.708l2-2a.5.5 0 0 0 0-.708l-2-2z"/>
+            <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm10-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1z"/>
+          </svg>
+        <strong>Kieu Anh</strong>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-code" viewBox="0 0 16 16">
+            <path d="M6.646 5.646a.5.5 0 1 1 .708.708L5.707 8l1.647 1.646a.5.5 0 0 1-.708.708l-2-2a.5.5 0 0 1 0-.708l2-2zm2.708 0a.5.5 0 1 0-.708.708L10.293 8 8.646 9.646a.5.5 0 0 0 .708.708l2-2a.5.5 0 0 0 0-.708l-2-2z"/>
+            <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm10-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1z"/>
+          </svg>
+      </a>
+      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">Vietnamese Food Recipes</h1>
+        <p class="lead text-muted">Who doesn't like good food?</p>
+        <p>
+          <a href="https://www.gimmesomeoven.com/pho-recipe/print-recipe/63194/" class="btn btn-primary my-2">Phở</a>
+          <a href="https://cookieandkate.com/fresh-spring-rolls-recipe/" class="btn btn-secondary my-2">Gỏi cuốn (Spring rolls)</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <!-- Images are from https://vietnam.travel/things-to-do/21-must-try-vietnamese-dishes -->
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://img.sndimg.com/food/image/upload/c_thumb,q_80,w_562,h_316/v1/img/recipes/34/48/8/picgItcPn.jpg" alt="Fried Spring Rolls">
+            <div class="card-body">
+              <p class="card-text">Fried Spring Rolls</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <a href="https://www.food.com/recipe/vietnamese-spring-rolls-34488"><div class="btn btn-sm btn-outline-secondary">View</div></a>
+                </div>
+                <small class="text-muted">60 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://vietnam.travel/sites/default/files/inline-images/1016%20AJS%20Vietnam%20TAB%20Food-7.jpg" alt="Bánh Mì">
+
+            <div class="card-body">
+              <p class="card-text">Bánh Mì</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <a href="https://cooking.nytimes.com/recipes/1014140-shortcut-banh-mi-with-pickled-carrots-and-daikon"><div class="btn btn-sm btn-outline-secondary">View</div></a>
+                </div>
+                <small class="text-muted">45 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://vietnam.travel/sites/default/files/inline-images/Must%20try%20Vietnamese%20Dishes-12.jpg" alt="Cơm Tấm">
+  
+              <div class="card-body">
+                <p class="card-text">Cơm Tấm</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                      <a href="https://netspace.edu.vn/cach-lam-com-tam-suon-bi-cha-ngon-tuyet/"><div class="btn btn-sm btn-outline-secondary">Vietnamese</div></a>
+                      <a href="https://vina.com/recipes/vietnamese-broken-rice-in-saigon-style/"><div class="btn btn-sm btn-outline-secondary">English</div></a>
+                  </div>
+                  <small class="text-muted">60 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://vietnam.travel/sites/default/files/inline-images/1016%20AJS%20Vietnam%20TAB%20Hue-19.jpg" alt="Bún Bò Huế">
+  
+              <div class="card-body">
+                <p class="card-text">Bún Bò Huế</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                      <a href="https://www.hungryhuy.com/wprm_print/3374"><div class="btn btn-sm btn-outline-secondary">View</div></a>
+                  </div>
+                  <small class="text-muted">3 hrs 30 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://vietnam.travel/sites/default/files/inline-images/1016%20AJS%20Vietnam%20TAB%20Food-4.jpg" alt="Cao Lầu">
+  
+              <div class="card-body">
+                <p class="card-text">Cao Lầu</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                      <a href="https://netspace.edu.vn/cach-lam-cao-lau-hoi-an-thanh-dam-dam-da-net-truyen-thong/"><div class="btn btn-sm btn-outline-secondary">Vietnamese</div></a>
+                      <a href="https://www.bonappetit.com/recipe/braised-spiced-pork-with-cao-lau-noodles"><div class="btn btn-sm btn-outline-secondary">English</div></a>
+                  </div>
+                  <small class="text-muted">5 hrs</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://vietnam.travel/sites/default/files/inline-images/1016%20AJS%20Vietnam%20TAB%20Food-5.jpg" alt="Mì Quảng">
+  
+              <div class="card-body">
+                <p class="card-text">Mì Quảng</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                      <a href="https://www.vickypham.com/blog/central-vietnams-must-eat-noodle-dish-mi-quang"><div class="btn btn-sm btn-outline-secondary">View</div></a>
+                  </div>
+                  <small class="text-muted">1 hr 30 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://vietnam.travel/sites/default/files/inline-images/Must%20try%20Vietnamese%20Dishes-2_1.jpg" alt="Bún Chả">
+  
+              <div class="card-body">
+                <p class="card-text">Bún Chả</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                      <a href="https://www.recipetineats.com/wprm_print/34119"><div class="btn btn-sm btn-outline-secondary">View</div></a>
+                  </div>
+                  <small class="text-muted">30 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://vietnam.travel/sites/default/files/inline-images/must%20try%20vietnamese%20dishes-4.jpg" alt="Xôi Mặn">
+  
+              <div class="card-body">
+                <p class="card-text">Xôi Mặn</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                      <a href="https://bunbobae.com/wprm_print/1453"><div class="btn btn-sm btn-outline-secondary">View</div></a>
+                  </div>
+                  <small class="text-muted">50 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://vietnam.travel/sites/default/files/inline-images/Must%20try%20Vietnamese%20Dishes-14.jpg" alt="Chả Cá">
+  
+              <div class="card-body">
+                <p class="card-text">Chả Cá</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                      <a href="https://www.vickypham.com/blog/hanoi-fried-fish-with-turmeric-dill-cha-ca-la-vong"><div class="btn btn-sm btn-outline-secondary">View</div></a>
+                  </div>
+                  <small class="text-muted">60 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer class="text-muted py-5">
+  <div class="container">
+    <p class="float-end mb-1">
+      <a href="index.html">Back to top</a>
+    </p>
+    <p class="mb-1">Customized with Album example from © Bootstrap</p>
+  </div>
+</footer>
+
+
+    <script src="./Album example · Bootstrap v5.0_files/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+      
+  
+
+</body></html>
